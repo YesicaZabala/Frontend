@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Shadows+Into+Light&display=swap');
+h1,h3 { 
+    text-align: center;
+}
+
+
+* body {
+    margin: 50px;
+    background-color: B388EB;
+    font-family:'Libre Caslon Display' ;
+
+}
+
+img
+   {    display:block;
+        margin: 0px auto;
+        padding: 0%;
+        box-sizing: border-box;
+        width: 80px;
+        height: 50px;
+    }
+   
+h2 {
+    background-color: #FDC5F5; color:#8093F1;
+    text-align: left;
+}
+footer
+{
+    display: flex;
+
+    height: fit-content;
+    justify-content: space-evenly;
+
+}
+.imagenes {
+    display: flex;
+    height: 25px;
+
+}
