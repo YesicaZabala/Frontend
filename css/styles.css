@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 h1,h3 { 
     text-align: center;
 }
@@ -27,13 +32,25 @@ h2 {
 footer
 {
     display: flex;
-
-    height: fit-content;
-    justify-content: space-evenly;
+    justify-content: center;    
+    
 
 }
 .imagenes {
     display: flex;
     height: 25px;
+
+}
+p {
+    display: subgrid;
+}
+
+#sobremi {
+    display:flex ;
+    justify-content: center;
+}
+header {
+        background-color: #FDC5F5;
+        background-image: ;
 
 }
