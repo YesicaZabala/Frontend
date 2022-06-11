@@ -1,0 +1,135 @@
+* { /* el asteristo afecta a toda la pagina*/
+    box-sizing: border-box; /*box-sizing: border-box contiene a todas las cajas por igual */
+    margin: 0; /* para que no tengan margenes*/
+    padding: 0;/* para que no tengan margenes*/
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color: #222222;
+   color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;   
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+    margin-right: 14px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;    
+}
+.menu ul li {
+    margin-right: 18px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.rojo {
+    color: red;
+}
+.verde {
+    color: green;
+}
+.delivery {
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    min-width: 680px;
+    min-height: 420px;
+    margin-top: 47px;
+    margin-left: 16px;
+    }
+section {
+    display: flex;
+    flex-direction: column;
+   }
+.delivery p {
+    margin-top: 25px;
+    margin-left: 19px;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+
+} 
+main {
+    display: flex;
+    background-color: #d0d3d4;
+    }  
+.section2 {
+    justify-content: center;
+    min-width: 680px;
+    min-height: 420px;
+    background-color: white;
+    margin-top: 47px;
+    margin-left: -28px;
+    margin-bottom: 47px;
+}
+.container {
+    margin-left: 49px;
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+.section2 h2{
+    margin: 0 auto;
+    position:relative;
+    bottom: 50px;
+}
+.container img {
+    position: relative;
+    right: 76px;
+    width: 130px;
+    height: 150px;
+    top: 40px;
+
+}
+.list-content ol li {
+    margin-bottom: 15px;
+}
+.list-content h3 {
+    margin-bottom: 19px;
+}
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+.menu2 {
+    display: flex;
+    align-items: center;
+}
+.logo2 {
+    display: flex;
+    align-items: center; 
+    margin-right: 24px;  
+}
+.logo2 img {
+    height: 80px;
+    width: 80px;
+    margin-right: 14px;
+}
+.menu2 ul{
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;  
+    position: relative;
+    left: 19px;  
+}
+.menu2 ul li {
+    margin-bottom: 9px;
+}
+.menu2 ul li a {
+    text-decoration: none;
+    color: white;
+}
